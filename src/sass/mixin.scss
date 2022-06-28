@@ -1,0 +1,55 @@
+@mixin OS_18 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: $shadow_undertext;
+}
+
+@mixin OS_18_no_shadow {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+@mixin telephones {
+    @include OS_18;
+    span {
+        color: rgb(151, 152, 153);
+    }
+}
+
+@mixin borders_pink {
+    background: $dotted_underline_pink;
+    padding-bottom: 1px;
+}
+
+@mixin borders_white {
+    background: $dotted_underline_white;
+    padding-bottom: 1px;
+    color: white;
+}
+
+@mixin logo {
+    font-size: 48px;
+    font-family: 'good_times';
+    color: rgb(254, 53, 101);
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: $shadow_undertext;
+    span {
+        color: white;
+    }
+}
+
+@mixin strawberry_form {
+    padding: 11.5px 9px;
+    border: 1px solid $pinky_color;
+    background-color: $strawberry_color;
+}
+
+@mixin reklam_ka($image, $color) {
+    background: linear-gradient($color, $color 100%) 0 0/ 100% 100% no-repeat, url($image);
+    border: 1px solid rgb(250, 250, 250);
+}

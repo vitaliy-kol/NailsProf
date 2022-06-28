@@ -1,0 +1,211 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$calendar-icon-name: 'calendar_icon';
+$calendar-icon-x: 44px;
+$calendar-icon-y: 61px;
+$calendar-icon-offset-x: -44px;
+$calendar-icon-offset-y: -61px;
+$calendar-icon-width: 16px;
+$calendar-icon-height: 16px;
+$calendar-icon-total-width: 118px;
+$calendar-icon-total-height: 91px;
+$calendar-icon-image: 'sprite.png';
+$calendar-icon: (44px, 61px, -44px, -61px, 16px, 16px, 118px, 91px, 'sprite.png', 'calendar_icon', );
+$calendar-icon-hover-name: 'calendar_icon_hover';
+$calendar-icon-hover-x: 60px;
+$calendar-icon-hover-y: 61px;
+$calendar-icon-hover-offset-x: -60px;
+$calendar-icon-hover-offset-y: -61px;
+$calendar-icon-hover-width: 16px;
+$calendar-icon-hover-height: 16px;
+$calendar-icon-hover-total-width: 118px;
+$calendar-icon-hover-total-height: 91px;
+$calendar-icon-hover-image: 'sprite.png';
+$calendar-icon-hover: (60px, 61px, -60px, -61px, 16px, 16px, 118px, 91px, 'sprite.png', 'calendar_icon_hover', );
+$facebook-icon-name: 'facebook_icon';
+$facebook-icon-x: 31px;
+$facebook-icon-y: 0px;
+$facebook-icon-offset-x: -31px;
+$facebook-icon-offset-y: 0px;
+$facebook-icon-width: 29px;
+$facebook-icon-height: 30px;
+$facebook-icon-total-width: 118px;
+$facebook-icon-total-height: 91px;
+$facebook-icon-image: 'sprite.png';
+$facebook-icon: (31px, 0px, -31px, 0px, 29px, 30px, 118px, 91px, 'sprite.png', 'facebook_icon', );
+$facebook-symbol-name: 'facebook_symbol';
+$facebook-symbol-x: 60px;
+$facebook-symbol-y: 0px;
+$facebook-symbol-offset-x: -60px;
+$facebook-symbol-offset-y: 0px;
+$facebook-symbol-width: 29px;
+$facebook-symbol-height: 30px;
+$facebook-symbol-total-width: 118px;
+$facebook-symbol-total-height: 91px;
+$facebook-symbol-image: 'sprite.png';
+$facebook-symbol: (60px, 0px, -60px, 0px, 29px, 30px, 118px, 91px, 'sprite.png', 'facebook_symbol', );
+$menu-icon-name: 'menu_icon';
+$menu-icon-x: 29px;
+$menu-icon-y: 61px;
+$menu-icon-offset-x: -29px;
+$menu-icon-offset-y: -61px;
+$menu-icon-width: 15px;
+$menu-icon-height: 23px;
+$menu-icon-total-width: 118px;
+$menu-icon-total-height: 91px;
+$menu-icon-image: 'sprite.png';
+$menu-icon: (29px, 61px, -29px, -61px, 15px, 23px, 118px, 91px, 'sprite.png', 'menu_icon', );
+$ok-icon-name: 'ok_icon';
+$ok-icon-x: 0px;
+$ok-icon-y: 31px;
+$ok-icon-offset-x: 0px;
+$ok-icon-offset-y: -31px;
+$ok-icon-width: 29px;
+$ok-icon-height: 30px;
+$ok-icon-total-width: 118px;
+$ok-icon-total-height: 91px;
+$ok-icon-image: 'sprite.png';
+$ok-icon: (0px, 31px, 0px, -31px, 29px, 30px, 118px, 91px, 'sprite.png', 'ok_icon', );
+$ok-symbol-name: 'ok_symbol';
+$ok-symbol-x: 29px;
+$ok-symbol-y: 31px;
+$ok-symbol-offset-x: -29px;
+$ok-symbol-offset-y: -31px;
+$ok-symbol-width: 29px;
+$ok-symbol-height: 30px;
+$ok-symbol-total-width: 118px;
+$ok-symbol-total-height: 91px;
+$ok-symbol-image: 'sprite.png';
+$ok-symbol: (29px, 31px, -29px, -31px, 29px, 30px, 118px, 91px, 'sprite.png', 'ok_symbol', );
+$twitter-icon-name: 'twitter_icon';
+$twitter-icon-x: 58px;
+$twitter-icon-y: 31px;
+$twitter-icon-offset-x: -58px;
+$twitter-icon-offset-y: -31px;
+$twitter-icon-width: 29px;
+$twitter-icon-height: 30px;
+$twitter-icon-total-width: 118px;
+$twitter-icon-total-height: 91px;
+$twitter-icon-image: 'sprite.png';
+$twitter-icon: (58px, 31px, -58px, -31px, 29px, 30px, 118px, 91px, 'sprite.png', 'twitter_icon', );
+$twitter-symbol-name: 'twitter_symbol';
+$twitter-symbol-x: 89px;
+$twitter-symbol-y: 0px;
+$twitter-symbol-offset-x: -89px;
+$twitter-symbol-offset-y: 0px;
+$twitter-symbol-width: 29px;
+$twitter-symbol-height: 30px;
+$twitter-symbol-total-width: 118px;
+$twitter-symbol-total-height: 91px;
+$twitter-symbol-image: 'sprite.png';
+$twitter-symbol: (89px, 0px, -89px, 0px, 29px, 30px, 118px, 91px, 'sprite.png', 'twitter_symbol', );
+$vector-icon-name: 'vector_icon';
+$vector-icon-x: 0px;
+$vector-icon-y: 0px;
+$vector-icon-offset-x: 0px;
+$vector-icon-offset-y: 0px;
+$vector-icon-width: 31px;
+$vector-icon-height: 31px;
+$vector-icon-total-width: 118px;
+$vector-icon-total-height: 91px;
+$vector-icon-image: 'sprite.png';
+$vector-icon: (0px, 0px, 0px, 0px, 31px, 31px, 118px, 91px, 'sprite.png', 'vector_icon', );
+$vk-icon-name: 'vk_icon';
+$vk-icon-x: 89px;
+$vk-icon-y: 30px;
+$vk-icon-offset-x: -89px;
+$vk-icon-offset-y: -30px;
+$vk-icon-width: 29px;
+$vk-icon-height: 30px;
+$vk-icon-total-width: 118px;
+$vk-icon-total-height: 91px;
+$vk-icon-image: 'sprite.png';
+$vk-icon: (89px, 30px, -89px, -30px, 29px, 30px, 118px, 91px, 'sprite.png', 'vk_icon', );
+$vk-symbol-name: 'vk_symbol';
+$vk-symbol-x: 0px;
+$vk-symbol-y: 61px;
+$vk-symbol-offset-x: 0px;
+$vk-symbol-offset-y: -61px;
+$vk-symbol-width: 29px;
+$vk-symbol-height: 30px;
+$vk-symbol-total-width: 118px;
+$vk-symbol-total-height: 91px;
+$vk-symbol-image: 'sprite.png';
+$vk-symbol: (0px, 61px, 0px, -61px, 29px, 30px, 118px, 91px, 'sprite.png', 'vk_symbol', );
+$spritesheet-width: 118px;
+$spritesheet-height: 91px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($calendar-icon, $calendar-icon-hover, $facebook-icon, $facebook-symbol, $menu-icon, $ok-icon, $ok-symbol, $twitter-icon, $twitter-symbol, $vector-icon, $vk-icon, $vk-symbol, );
+$spritesheet: (118px, 91px, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

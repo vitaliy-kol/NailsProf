@@ -1,0 +1,21 @@
+$shadow_undertext: 0 1px rgb(27, 29, 34);
+$dotted_underline_pink: linear-gradient(to right, rgb(234, 53, 101) 1px, transparent 1px, transparent 3px) 0 calc(100% - 1px)/ 3px 1px repeat-x,
+linear-gradient(to right, rgb(27, 29, 34) 1px, transparent 1px, transparent 3px) 0 100%/ 3px 1px repeat-x;
+$dotted_underline_white: linear-gradient(to right, white 1px, transparent 1px, transparent 3px) 0 calc(100% - 1px)/ 3px 1px repeat-x,
+linear-gradient(to right, rgb(27, 29, 34) 1px, transparent 1px, transparent 3px) 0 100%/ 3px 1px repeat-x;
+$dotted_ramka_white: linear-gradient(to right, white 1px, transparent 1px, transparent 3px) 0 0/ 3px 1px repeat-x,
+linear-gradient(to right, white 1px, transparent 1px, transparent 3px) 0 100%/ 3px 1px repeat-x,
+linear-gradient(to bottom, white 1px, transparent 1px, transparent 3px) 0 0/ 1px 3px repeat-y,
+linear-gradient(to bottom, white 1px, transparent 1px, transparent 3px) 100% 0/ 1px 3px repeat-y;
+$pinky_color: rgb(234, 53, 101);
+$dotted_vertical_line: linear-gradient(to bottom, rgb(234, 53, 101) 1px, transparent 1px, transparent 3px) 0 0/ 1px 3px repeat-y;
+$strawberry_color: rgba(234, 53, 101, 0.149);
+$hover_color: rgba(44, 50, 62, 0.8);
+$bilbord: url('../img_com/bilbord.png') 0 0/ cover no-repeat;
+$text_color_a: rgb(159,
+159,
+159);
+$dotted_vertical_line_news: linear-gradient(to bottom,
+rgb(189, 189, 191) 1px,
+transparent 1px,
+transparent 3px) 0 0/ 1px 3px repeat-y;
